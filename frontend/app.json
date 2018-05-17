@@ -1,0 +1,16 @@
+{
+  "source": "./",
+  "target": "../assets/",
+  "css": [
+    "scss/app.scss"
+  ],
+  "flags": [
+    "flags/**"
+  ],
+  "fonts": [
+    "fonts/**"
+  ],
+  "js": [
+    "js/app.js"
+  ]
+}

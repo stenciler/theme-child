@@ -1,0 +1,43 @@
+.ux-block {
+	&.appointment {
+		background: #fff;
+		width: 340px;
+		padding: 30px;
+		.heading {
+			text-transform: uppercase;
+			margin-bottom: 15px;
+			h3 {
+				color: $dove-grey;
+				margin: 0;
+				font-size: 3.34rem;
+				line-height: 1;
+
+			}
+			.lead {
+				text-transform: uppercase;
+				color: $citrus;
+				margin: 0;
+				font-size: 2.75rem;
+				font-weight: bold;
+				line-height: 1;
+
+			}
+		}
+		.text {
+			color: $dove-grey;
+			p {
+				line-height: 1.2;
+				text-align: left;
+				font-size: 0.96666rem;
+			}
+		}
+		.btn-call {
+			background: $citrus;
+			border: none;
+			width: 100%;
+			font-weight: bold;
+			font-size: 1.6rem;
+			border-radius: 0;
+		}
+	}
+}
